@@ -112,7 +112,7 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(31, 44, 89, 1);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -138,7 +138,6 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(74, 4, 38, 0.53);
 	content: "";
 }
 .banner-caption {
@@ -162,7 +161,7 @@ color: #FF89BA;
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: #222222;
+	background-color: #37c5f3;
 	color: #ffffff;
 }
 .default-bg.blue {
@@ -478,8 +477,8 @@ padding: 10px 0;
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #626262;
-	color: #ffffff;
+	background-color: #1f2c59;
+	color: #1f2c59;
 }
 .modal-header h4 {
 	color: #ffffff;
@@ -519,18 +518,18 @@ padding: 10px 0;
 	border: none;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
-	color: #000000;
+	color: #ffffff;
 	padding: 10px 20px;
 	font-size: 18px;
 	font-weight: 400;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #1c246c;
+	color: #ffffff;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #1c246c;
+	color: #f60c15;
 }
 
 /* carousel */
@@ -592,12 +591,7 @@ padding: 10px 0;
     margin-bottom: 10px;
 }
 
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
+
 
 
 
@@ -665,7 +659,7 @@ padding: 10px 0;
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: rgba(0, 0, 0, 0.95);
+	background-color: rgba(31, 44, 89, 0.95);
 	padding: 5px 0;
 }
 .fixed-header-on .brand {
