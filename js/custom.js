@@ -6,7 +6,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner1.jpeg');
+		$(".banner-image").backstretch('images/banner1.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -100,6 +100,23 @@
 				});
 			});
 		};
+
+		// Products List
+		//-----------------------------------------------
+		//List of Products in Object Array
+		class Products {
+
+		}
+
+		//onload function
+		window.onload = function(){
+			createProductsTable();
+		}
+
+		//Table creation
+		function tableCreate() {
+			var body
+		}
 
 		//Modal
 		//-----------------------------------------------
