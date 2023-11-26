@@ -3,8 +3,8 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  */
 
-(function($){
-	$(document).ready(function(){
+
+(function($){$(document).ready(function(){
 	
 		$(".banner-image").backstretch('images/banner1.jpg');
 		
@@ -103,19 +103,45 @@
 
 		// Products List
 		//-----------------------------------------------
-		//List of Products in Object Array
-		class Products {
+		const products = [
+		{
+			"name": "1",
+			"dimensions": "2",
+			"description": "3",
+			"type": "roofing"
+		},
+		{
+			"name": "4",
+			"dimensions": "5",
+			"description": "6",
+			"type": "electrical"
+		},
+		{
+			"name": "7",
+			"dimensions": "8",
+			"description": "9",
+			"type": "wall"
+		},
+		{
+			"name": "10",
+			"dimensions": "11",
+			"description": "12",
+			"type": "finishes"
+		},
+		{
+			"name": "13",
+			"dimensions": "14",
+			"description": "15",
+			"type": "roofing"
+		},]
 
-		}
-
-		//onload function
-		window.onload = function(){
-			createProductsTable();
-		}
-
-		//Table creation
-		function tableCreate() {
-			var body
+		if($(".table").length>0){
+			products.forEach((product) => {
+				console.log(product.type);
+				let node = document.getElementById(product.type);
+				console.log(node);
+				node.innerHTML += "<tr><td>" + product.name + "</td><td>" + product.dimensions + "</td><td>" + product.description + "</td></tr>";
+			});
 		}
 
 		//Modal
