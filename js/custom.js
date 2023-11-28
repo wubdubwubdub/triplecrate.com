@@ -105,35 +105,210 @@
 		//-----------------------------------------------
 		const products = [
 		{
-			"name": "1",
-			"dimensions": "2",
-			"description": "3",
+			"name": "3-Tab Shingle",
+			"dimensions": "40in x 13 1/4in ",
+			"description": "$1.00",
 			"type": "roofing"
 		},
 		{
-			"name": "4",
-			"dimensions": "5",
-			"description": "6",
-			"type": "electrical"
+			"name": "100% Silicone Roof Coating",
+			"dimensions": "4.75gal",
+			"description": "$275.00",
+			"type": "roofing"
 		},
 		{
-			"name": "7",
-			"dimensions": "8",
-			"description": "9",
+			"name": "Slate Tiles",
+			"dimensions": "~115sqft",
+			"description": "$375.00",
+			"type": "roofing"
+		},
+		{
+			"name": "Stone Coating Metal Roofing",
+			"dimensions": "40in x 13 1/3in",
+			"description": "$3.75",
+			"type": "roofing"
+		},
+		{
+			"name": "TPO Roofing Membrane",
+			"dimensions": ".45mm x 5ft x 100ft",
+			"description": "**",
+			"type": "roofing"
+		},
+		{
+			"name": "TPO Roofing Membrane",
+			"dimensions": ".60mm x 5ft x 100ft",
+			"description": "**",
+			"type": "roofing"
+		},
+		{
+			"name": "TPO Roofing Membrane",
+			"dimensions": ".80mm x 5ft x 100ft",
+			"description": "**",
+			"type": "roofing"
+		},
+		{
+			"name": "TPO Roofing Membrane",
+			"dimensions": "1.50mm x 5ft x 100ft",
+			"description": "**",
+			"type": "roofing"
+		},
+		{
+			"name": "Synthetic Roof Underlayment",
+			"dimensions": "48in x 250ft",
+			"description": "$99.87",
+			"type": "roofing"
+		},
+		{
+			"name": "Rigid Foam Insulation R-10",
+			"dimensions": "4ft x 8ft x 2in",
+			"description": "$40",
 			"type": "wall"
 		},
 		{
-			"name": "10",
-			"dimensions": "11",
-			"description": "12",
+			"name": "Romex Cable 12/2",
+			"dimensions": "250ft",
+			"description": "$85",
+			"type": "electrical"
+		},
+		{
+			"name": "Aluminum Plated 12/2 or 14/2",
+			"dimensions": "250ft",
+			"description": "$185",
+			"type": "electrical"
+		},
+		{
+			"name": "Closed Cell Spray Foam Kit",
+			"dimensions": "~600 board feet",
+			"description": "$700",
+			"type": "wall"
+		},
+		{
+			"name": "100 KVaTransformer Pole",
+			"dimensions": "14400/28900 | 240/480V",
+			"description": "$5,720",
+			"type": "electrical"
+		},
+		{
+			"name": "167 KVa Transformer Pole",
+			"dimensions": "14400/28900 | 240/480V",
+			"description": "$9,200",
+			"type": "electrical"
+		},
+		{
+			"name": "250 KVa Transformer Pole",
+			"dimensions": "14400/28900 | 240/480V",
+			"description": "$13,000",
+			"type": "electrical"
+		},
+		{
+			"name": "333 KVa Transformer Pole",
+			"dimensions": "14400/28900 | 240/480V",
+			"description": "$17,400",
+			"type": "electrical"
+		},
+		{
+			"name": "OSB (oriented strand board)",
+			"dimensions": "23/32in x 4ft x 8ft",
+			"description": "$18",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Stud 25Ga",
+			"dimensions": "2 1/2in x 1 1/4in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Track 25Ga",
+			"dimensions": "2 1/2in x 1 1/4in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Stud 25Ga",
+			"dimensions": "3 5/8in x 1/14in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Track 25Ga",
+			"dimensions": "3 5/8in x 1/14in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Stud 25Ga",
+			"dimensions": "6in x 1 1/4in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "Galvanized Steel Track 25Ga",
+			"dimensions": "6in x 1 1/4in x 12ft",
+			"description": "**",
+			"type": "wall"
+		},
+		{
+			"name": "LED Ultra-thin w/ Junction Box",
+			"dimensions": "3in / 4in / 6in / 8in",
+			"description": "$10",
 			"type": "finishes"
 		},
 		{
-			"name": "13",
-			"dimensions": "14",
-			"description": "15",
+			"name": "Linkable LED Linear Light",
+			"dimensions": "4ft",
+			"description": "$60",
+			"type": "finishes"
+		},
+		{
+			"name": "Linkable LED Linear Light",
+			"dimensions": "8ft",
+			"description": "$90",
+			"type": "finishes"
+		},
+		{
+			"name": "LED Panel 3 CCT",
+			"dimensions": "2ft x 4ft",
+			"description": "$50",
+			"type": "finishes"
+		},
+		{
+			"name": "LED Panel 3 CCT",
+			"dimensions": "2ft x 2ft",
+			"description": "$35",
+			"type": "finishes"
+		},
+		{
+			"name": "LED High Bay",
+			"dimensions": "2ft x 4ft",
+			"description": "$110",
+			"type": "finishes"
+		},
+		{
+			"name": "Silicone Caulk (White)",
+			"dimensions": "Bottle",
+			"description": "$3.00",
 			"type": "roofing"
-		},]
+		},
+		{
+			"name": "Linkable LED Linear Light",
+			"dimensions": "8ft",
+			"description": "$90",
+			"type": "finishes"
+		},
+		{
+			"name": "Custom Doors and Cabinetry",
+			"dimensions": "CHECK CATALOG",
+			"description": "**",
+			"type": "finishes"
+		},
+		{
+			"name": "Phillips Pan Head Screw",
+			"dimensions": "Tested to fit our materials",
+			"description": "free",
+			"type": "wall"
+		},
+		]
 
 		if($(".table").length>0){
 			products.forEach((product) => {
