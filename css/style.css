@@ -597,7 +597,11 @@ padding: 10px 0;
     margin-bottom: 10px;
 }
 
-
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+}
 
 
 

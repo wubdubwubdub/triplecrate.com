@@ -308,6 +308,24 @@
 			"description": "free",
 			"type": "wall"
 		},
+		{
+			"name": "Metallic EMT Pipe",
+			"dimensions": "1in x 10ft",
+			"description": "$17",
+			"type": "electrical"
+		},
+		{
+			"name": "Metallic EMT Pipe",
+			"dimensions": "3/4in x 10ft",
+			"description": "$9.88",
+			"type": "electrical"
+		},
+		{
+			"name": "Metallic EMT Pipe",
+			"dimensions": "1/2in x 10ft",
+			"description": "$5.88",
+			"type": "electrical"
+		},
 		]
 
 		if($(".table").length>0){
