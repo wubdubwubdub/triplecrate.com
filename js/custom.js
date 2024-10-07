@@ -345,5 +345,7 @@
 			});
 		}
 
+		if($("."))
+
 	}); // End document ready
 })(this.jQuery);
